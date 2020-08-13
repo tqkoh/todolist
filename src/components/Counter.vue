@@ -11,14 +11,14 @@ export default {
   name: "counter",
   data() {
     return {
-      count: 0,
+      count: 0
     };
   },
   computed: {
     countMessage() {
       return "回数: " + this.count;
-    },
-  },
+    }
+  }
 };
 </script>
 
